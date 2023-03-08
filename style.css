@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: url(lap.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+#img {
+
+    border-radius: 50%;
+    width: 160px;
+    margin-top: 3%;
+    object-fit: cover;
+
+}
+
+.main {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 80vh;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.content {
+    padding: 15px;
+}
+
+h1 {
+    color: #dfdcd8;
+
+}
+
+.content h2,
+p {
+    font-weight: 400;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    width: 70%;
+    margin: 10px auto;
+    color: #dfdcd8;
+
+}
+
+
+
+.content h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+
+
+
+}
+
+.content p span {
+    font-weight: 600;
+}
+
+.content h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: rgb(203, 181, 36);
+    padding-top: 20px;
+}
+.mywork{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 20px;
+
+}
+.mywork h3 {
+
+    color: #f69423;
+    padding-bottom: 10px;
+
+
+}
+
+
+#get i{
+  font-size: 30px;
+  color: #f69423;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 18px;
+}
+
+#get:hover i {
+    color: rgb(165, 79, 42);
+
+}
+
+.icons h3{
+    padding: 9px;
+}
+
+.icons i {
+    padding: 10px;
+    font-size: 25px;
+    color: antiquewhite;
+    transition: 0.4s;
+
+}
+
+.icons i:hover {
+    color: rgb(165, 79, 42);
+
+
+}
+
+
+@media (max-width: 400px) {
+    .main {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+
+
+    }
+   
+
+    .content {
+        padding: 5px;
+
+    }
+
+    .content p {
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+
+    #img {
+        width: 100px;
+        margin-top: 7px
+      
+    }
+
+    .mywork{
+        margin: 7px;
+    }
+
+
+    .mywork h3 {
+
+        padding-bottom: 5px;
+
+    }
+
+
+}
+
+@media(max-width:500px) {
+    .main {
+        width: 90%;
+        height: 90%;
+        border-radius: 0;
+
+    }
+
+    .content {
+        margin-bottom: 7px;
+    }
+
+    .content {
+        padding-top: 7px;
+    }
+
+    .content p {
+
+        width: 80%;
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+
+
+
+
+}
+
+
+@media(max-width:1200px) {
+    .main {
+        width: 80%;
+        height: 85%;
+        border-radius: 0%;
+        padding-top: 40px;
+    }
+
+    .content {
+        padding-top: 40px;
+    }
+
+    
+    #img {
+        width: 110px;
+    }
+
+   
+}
